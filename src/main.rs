@@ -7,7 +7,7 @@ use discovery_handler::DiscoveryHandlerImpl;
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     // Specify the name of this DiscoveryHandler. A discovery handler is usually, but not necessarily, identified by
     // the protocol it uses.
-    let name = "todo";
+    let name = "display";
     // Specify whether the devices discovered by this discovery handler are locally attached (or embedded) to nodes or are
     // network based and usable/sharable by multiple nodes.
     let shared = false;
